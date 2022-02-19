@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Đăng nhập</title>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <!--======================================================================-->
+        <link rel="icon" type="image/png" href="private/login/images/icons/favicon.png" />
+        <!--======================================================================-->
+        <link rel="stylesheet" type="text/css" href="private/login/fonts/font-awesome-4.7.0/css/font-awesome.min.css" />
+        <!--==================================Load================================-->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous" />
+        <link rel="stylesheet" type="text/css" href="private/login/load/css/style.css" />
+        <!--======================================================================-->
+        <link rel="stylesheet" type="text/css" href="private/login/css/util.css" />
+        <link rel="stylesheet" type="text/css" href="private/login/css/main.css" />
+        <!--======================================================================-->
+    </head>
+    <body>
+        <div class="limiter">
+            <div class="container-login100">
+                <div class="wrap-login100">
+                    <div class="loader">
+                        <span class="fas fa-spinner xoay icon"></span>
+                    </div>
+                    <!-- làm hiệu ứng loading xoay khi vào trang -->
+                    <div class="login100-pic js-tilt" data-tilt>
+                        <img src="private/login/images/unnamed.jpg" alt="IMG" />
+                    </div>
+                    <!-- start form login -->
+                    <form method="POST" action="xulylogin.php" class="login100-form validate-form">
+                        <span class="login100-form-title" style="color: #77c4f0;">
+                            <b>Đăng nhập</b>
+                        </span>
+                        <div class="wrap-input100 validate-input">
+                            <input class="input100" type="text" name="txtUsername" placeholder="Tài khoản" />
+                            <span class="focus-input100"></span>
+                            <span class="symbol-input100">
+                                <i class="fa fa-user" aria-hidden="true"></i>
+                            </span>
+                        </div>
+                        <div class="wrap-input100 validate-input">
+                            <input class="input100" type="password" name="txtPassword" placeholder="Mật khẩu" />
+                            <span class="focus-input100"></span>
+                            <span class="symbol-input100">
+                                <i class="fa fa-lock" aria-hidden="true"></i>
+                            </span>
+                        </div>
+                    <!-- end form login -->
+                        <div class="container-login100-form-btn">
+                            <button class="login100-form-btn" name="btn_submit" id="b3">
+                                Đăng nhập
+                            </button>
+                        </div>
+                        <div class="text-center p-t-136">
+                            <a class="txt2" href="http://sokhcn.binhduong.gov.vn/">
+                                <i class="fa fa-home"> Sở khoa học và công nghệ tỉnh bình dương</i>
+                            </a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        </script>
+        <!--=========================================================================-->
+        <script src="private/login/vendor/jquery/jquery-3.2.1.min.js"></script>
+        <!--=========================================================================-->
+        <script src="private/login/vendor/bootstrap/js/popper.js"></script>
+        <script src="private/login/vendor/bootstrap/js/bootstrap.min.js"></script>
+        <!--=========================================================================-->
+        <script src="private/login/vendor/select2/select2.min.js"></script>
+        <!--=========================================================================-->
+        <script src="private/login/vendor/tilt/tilt.jquery.min.js"></script>
+        <script>
+            $(".js-tilt").tilt({
+                scale: 1.1,
+            });
+        </script>
+        <!--========================================================================-->
+        <script src="js/main.js"></script>
+        <!--=============================loading====================================-->
+        <script type="text/javascript" src="private/login/load/js/jquery-3.3.1.min.js"></script>
+        <script type="text/javascript" src="private/login/load/js/script.js"></script>
+    </body>
+</html>
